@@ -16,6 +16,7 @@ n2 = float(input("Ingresa el segundo numero: "))
 
 print("¿Cual es el mayor entre los dos numeros?")
 if n1 < n2: print(f"El segundo numero {n2} es el mayor")
+elif n1 == n2: print("Ambos numeros son iguales")
 else: print(f"El primer numero {n1} es el mayor")
 
 print("\n¿El primer numero es positivo, negativo o cero?")
